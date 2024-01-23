@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Segoe script;
+  padding: 10px;
+  background: rgb(255, 255, 255) ;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #8771517b;
+}
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #DD295A;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color:#8771517b;
+ ;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>EXPERIENCE</h1>
+  <p>“
+    "Embrace experiences; they sculpt your story."”</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="biodata.html">Biodata</a>
+  <a href="experience.html">Experience</a>
+  <a href="education.html">Education</a>
+  <a href="skills.html"> Skills </a>
+  <a href="contact.html"> Contact</a>
+
+</div>
+
+<div class="w3-card-4">
+  
+  <style>
+    .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+    .card {
+      flex: 0 0 180px;
+      margin: 10px;
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    } 
+    .card img {
+      max-width: 100%;
+    }
+    .card .text {
+      padding: 0 20px 20px;
+    }
+    .card .text > button {
+      background: gray;
+      border: 0;
+      color: white;
+      padding: 10px;
+      width: 100%;
+      }
+  </style>
+  
+  <main class="cards">
+    <article class="card">
+      <img src="Gambar/boja.jpeg" alt="Sample photo">
+      <div class="text">
+        <h3>Netball Tournament</h3>
+        <button> Third place </button>
+      </div>
+
+    </article>
+    <article class="card">
+      <img src="Gambar/Kompang.jpg" alt="Sample photo">
+      <div class="text">
+        <h3>Kompang's Club</h3>
+        <p> as a leader of kompang's club for two years in highschool </p>
+        <button> Leadership </button>
+      </div>
+
+  </article>
+    <article class="card">
+      <img src="Gambar/foodf.JPG" alt="Sample photo">
+      <div class="text">
+        <h3> AJK FoodFestival </h3>
+        <button>'23</button>
+      </div>
+
+    </article>
+    <article class="card">
+      <img src="Gambar/Dorm.png" alt="Sample photo">
+      <div class="text">
+        <h3>Head of Dormitory </h3>
+        <p>Being head of Sma Khairiah's Dormitory' Baitul Sakinah '</p>
+        <button> HS'19 </button>
+      </div>
+
+    </article>
+    <article class="card">
+      <img src="Gambar/WTU.jpeg" alt="Sample photo">
+      <div class="text">
+        <h3> WTU Program  </h3>
+        <button> 2023 </button>
+      </div>
+
+    </article>
+    <article class="card">
+      <img src="Gambar/photo_2024-01-23 10.26.38.jpeg" alt="Sample photo">
+      <div class="text">
+        <h3> Girl Guide Association </h3>
+        <p>President of Girl Guide Club in highschool </p>
+        <button> President  </button>
+      </div>
+    </article>
+
+
+
+</body>
+</html>
+
+
